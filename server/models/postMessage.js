@@ -10,13 +10,13 @@ const postSchema = mongoose.Schema({
     selectedFile: String,
     likeCount: {
         type: Number,
-        default: 0 
+        default: 0, 
     },
     createdAt: {
         type: Date,
         default: new Date()
-    }
-});
+    },
+})
 
 //Create mongoose model from post schema
 const PostMessage = mongoose.model('PostMessage', postSchema);
