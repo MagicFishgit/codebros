@@ -15,7 +15,7 @@ app.use(cors());
 app.use('/posts', postRoutes);
 
 // mongodb.com/cloud/atlas  with temporary credentials.
-const CONNECTION_URL = 
+const CONNECTION_URL = "";
 const PORT = process.env.PORT || 5000;
 
 // Connect to mongodb
